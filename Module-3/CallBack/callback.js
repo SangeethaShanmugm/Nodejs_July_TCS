@@ -130,3 +130,28 @@ timeToDelay(2, () => {
         })
     })
 })
+
+
+//promise
+
+let txt = "hello123"
+
+
+const promise = new Promise((resolve, reject) => {
+    if (txt == "hello") {
+        resolve("There is a text")
+    } else {
+        reject("There is no text")
+    }
+})
+
+console.log(promise)
+
+//promise chaining => .then(), error => .catch()
+
+createOrder(cart)
+    .then((orderId) => proceedToPayment(orderId))
+    .then((paymentInfo) => showOrderSummary(paymentInfo))
+    .then((paymentInfo) => updateOrderSection(paymentInfo))
+    .then((paymentInfo) => updateWallet(paymentInfo))
+
