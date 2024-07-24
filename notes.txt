@@ -102,4 +102,36 @@ john    25   john@gmail.com
  => table => collection  
  => Emdedded document => nested => one doc {} => 100 levels of document => 16 mb of data  => 10,000 lines of text
 
- object id => next
+
+mongodb server - mongod, mongo shell - mongo, mongoCompass GUI
+
+https://www.mongodb.com/try/download/community
+
+https://stackoverflow.com/questions/51224959/mongo-is-not-recognized-as-an-internal-or-external-command-operable-program-o
+
+
+show dbs => list all dbs
+use dbName => switch/create a db
+db => current db
+show collections  => list all collections in db
+
+ object id => 12 bytes => 4 bytes timestamp, 5 bytes random number, 3 bytes counter
+
+ CRUD Operations method
+ ----------------
+
+C   - Create    => add /insert   => post   =>  db.collection.insert()
+R   - Read      => getting       =>  get   =>  db.collection.find()
+U   - update    => update/edit   => put    =>  db.collection.update() 
+D   - delete    => delete        => delete =>  db.collection.delete()
+
+
+
+
+
+
+
+
+
+
+
