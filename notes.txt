@@ -125,10 +125,18 @@ R   - Read      => getting       =>  get   =>  db.collection.find()
 U   - update    => update/edit   => put    =>  db.collection.update() 
 D   - delete    => delete        => delete =>  db.collection.delete()
 
+Rest APi
+----------
+
+Representational State Transfer APi
+http request => CRUD
+
+uses => mobile apps, web apps, 
 
 
 
-
+💻 (client) ===========> Request(GET, POST, PUT, DELETE)  => 💻(server)  => Database
+             <========= Response (JSOn Format)
 
 
 
