@@ -139,7 +139,38 @@ uses => mobile apps, web apps,
              <========= Response (JSOn Format)
 
 
+Mongoose 
+---------
+
+create our own schema = > model => {} => document
+Schema , Validation, Query building, performance
 
 
+Graphql
+---------
+ 
+type definition   - user object type
+query definition  - root query
+mutation - crud functionality
+
+
+json-server --watch db.json --port 8900
+
+
+{
+  user(id: "4"){
+    firstName,
+    age
+  }
+}
+
+
+mutation{
+  addNewUser(firstName:"Navya", age: 20){
+    id, 
+    firstName,
+    age
+  }
+}
 
 

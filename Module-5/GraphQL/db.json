@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Aditya",
+      "age": 20
+    },
+    {
+      "id": "2",
+      "firstName": "Anita",
+      "age": 22
+    },
+    {
+      "id": "3",
+      "firstName": "Ayswarjya",
+      "age": 22
+    },
+    {
+      "id": "4",
+      "firstName": "DhanaShri",
+      "age": 23
+    },
+    {
+      "id": "9fe0",
+      "firstName": "Navya",
+      "age": 20
+    }
+  ]
+}
