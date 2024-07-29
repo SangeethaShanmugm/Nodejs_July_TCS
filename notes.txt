@@ -174,3 +174,17 @@ mutation{
 }
 
 
+
+ECMA script
+--------------
+
+Standard for JS
+
+
+variable => var, let, const
+
+Transpilation
+
+convert es6 to es5
+
+core, preset-env, 
