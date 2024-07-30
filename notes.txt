@@ -188,3 +188,33 @@ Transpilation
 convert es6 to es5
 
 core, preset-env, 
+
+
+Password 
+---------
+
+password@123
+
+encryption & decryption => ABCD => ZYXW
+ABCD
+WVUT
+
+Hashing =>hello =>  731525486 
+how are you doing => 864553434
+
+hash input is same then hash value will also be same
+
+same input means same hash value
+
+Aditya => password@123 + dsajhdi3y3589yrlkdwasbdhsfdyagf (random string  => salting) => 943854658(hashed password)
+
+Anita => password@123 + IHJDEQTE12656DSGijdskjf => 8546585436
+
+1. dhiaory8433rugwdJALDJSAIFHKMFnkjnkdsdsanc => 100 rounds  - 4min ❌
+2. djshruewhfk   -> 3 rounds  - can be repeated   ❌
+3. ndkaroi32u53827rwgsjddfjf => 10 rounds => Pick => UI exp and security
+
+
+
+
+
