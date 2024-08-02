@@ -217,4 +217,14 @@ Anita => password@123 + IHJDEQTE12656DSGijdskjf => 8546585436
 
 
 
+Microservices
+----------------
 
+
+monolithic
+
+spawn => real time log monitor
+
+exec- > automated scripts
+
+fork -> CPU intensive, image processing , data analysis
